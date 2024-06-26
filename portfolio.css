@@ -1,0 +1,155 @@
+h1{
+    font-family: league spartan;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+
+}
+body{
+    background-color: rgb(255, 252, 253);
+    font-family: inter,sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+   
+    background-image: url("background.jpg");
+    margin: 0;
+    padding: 0;
+}
+.big-text{
+    color: #f9f7fd;
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+#hero-section{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto 48px auto;
+
+
+}
+#hero-text{
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+
+
+}
+#hero-img{
+    width: 100%;
+    height: 500px;
+    border-radius: 0 0 0 70px;
+}
+#hero-img-wrapper{
+    width: 50%;
+
+}
+.small-text{
+    font-size: 14px;
+    font-family: inter,sanserif;
+    font-weight: 400;
+    color: #f9f7fd;
+
+}
+#vinay{
+    padding-top: 52px;
+    color: antiquewhite;
+}
+.button1{
+   
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 3px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 5px;
+   
+}
+#pricing{
+    text-align: center;
+    margin-top: 10px;
+
+}
+#h2{
+    font-family: league spartan;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: center;
+    color: #f9f7fd;
+
+
+
+}
+#pricing-section{
+
+    max-width: 1060px;
+    margin: 48px auto 48px auto;
+}
+.overtitle{
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f1eef6;
+    text-align: center;
+
+
+    
+
+}
+.section-subtitle{
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+    color: #f9f7fd;
+}
+.biggtext{
+    font-family: poppins,sans-serif;
+    text-align: center;
+    margin: 8px auto 48px auto;
+}
+#pricingboxes{
+
+    display:flex; 
+    
+}
+.pricingbox{
+    width: 33.33%;
+    background-color: rgb(203, 211, 223);
+    margin: 0 10px;
+    border-radius: 10px;
+    /* box-shadow: 6px 2px 25px -9px ; */
+    padding: 20px;
+    
+
+}
+
+.price{
+    font-family: poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(26, 2, 2);
+
+    
+}
+.pricingbox:hover{
+    box-shadow: 0px 0px 5px #fff;
+}
+.price-per-page{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
